@@ -1,5 +1,6 @@
 import React from 'react';
 import { Query } from 'react-apollo';
+import BarGraph from './BarGraph';
 import gql from 'graphql-tag';
 
 function Posts() {
@@ -69,12 +70,10 @@ function Posts() {
                     (numberOfPosts[new Date(Number(el.createdAt)).getMonth()].numbers = numberOfPosts[new Date(Number(el.createdAt)).getMonth()].numbers + 1)))
 
                 return <div>
-                    {
-                        numberOfPosts.map((el) =>
-                            <div key={el.month}>{el.month}: {el.numbers}</div>
-                        )
-                    }
+                    <h2 style={{ margin: 40 }}>Histogram of the number of posts created in each month of 2019</h2>
+                    <BarGraph numberOfPosts={numberOfPosts} />
                 </div>
+
             }}
         </Query>
     )
