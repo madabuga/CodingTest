@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+# Coding test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I created a React project with `npx create-react-app` command.
 
-## Available Scripts
+I installed Apollo and GraphQL with the below command:
+`npm install apollo-boost react-apollo graphql-tag graphql`
 
-In the project directory, you can run:
+I accessed https://fakerql.stephix.uk/ and made some tests to see how the data looks.
 
-### `npm start`
+![graphql-fakerql](https://user-images.githubusercontent.com/49945269/110394038-67be0480-8074-11eb-8de0-6f6495adb1d5.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+I installed VX for building the histogram:
+`npm install --save @visx/mock-data @visx/group @visx/shape @visx/scale @visx/axis`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The reason why I have chosen VX was because the documentation and examples were well written and easy to understand.
 
-### `npm test`
+I built the histogram with 300 entries from FakerQL.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Histogram](https://user-images.githubusercontent.com/49945269/110394077-75738a00-8074-11eb-945c-c5170904ee02.png)
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+One of the biggest challenge was that I have never worked with GraphQL, Apollo or VX until now. I had to quickly learn and understand these technologies to be able to complete this project.
